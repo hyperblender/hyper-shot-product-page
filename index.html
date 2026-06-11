@@ -496,12 +496,12 @@
         <a href="#stills" aria-label="Use it for Stills"></a>
         <a href="#animations" aria-label="Use it for Animations"></a>
         <a href="#batch-rendering" aria-label="Batch Rendering"></a>
+        <a href="#stored-per-shot" aria-label="Stored Per Shot"></a>
         <a href="#render-manager" aria-label="Render Manager"></a>
         <a href="#objects-overrides" aria-label="Objects Overrides"></a>
         <a href="#smart-timeline" aria-label="Smart Timeline"></a>
         <a href="#groups" aria-label="Groups"></a>
         <a href="#statuses-filters" aria-label="Statuses and Filters"></a>
-        <a href="#stored-per-shot" aria-label="Stored Per Shot"></a>
         <a href="#tutorials" aria-label="Tutorials"></a>
         <a href="#support-feedback" aria-label="Support and Feedback"></a>
     </nav>
@@ -631,120 +631,6 @@
             <strong style="color:#ffffff;">Tip:</strong> The ETA adapts in real-time. It calculates a rolling average of recently rendered frames to provide highly accurate estimates based on scene complexity.
         </div>
     </div>
-
-    <!-- ==================================================
-         RENDER MANAGER
-         ================================================== -->
-    <div id="render-manager" class="feature-card" data-giant="RENDER" style="max-width:940px;margin:0 auto 60px;background-color:#151516;border:1px solid rgba(255,255,255,0.1);border-radius:32px;padding:60px 40px;">
-        <h3 style="text-align:left;font-size:2.2em;font-weight:600;letter-spacing:-0.02em;margin:0 0 24px 0;color:#ffffff;">Render Manager</h3>
-
-        <img src="assets/keyfeatures/render-manager.jpg" alt="Render Manager overview" style="max-width:100%;border-radius:12px;display:block;margin:0px 0px 32px;width:100%;">
-
-        <p style="text-align:left;max-width:700px;margin:0 0 32px 0;font-size:1.2em;line-height:1.5;color:#a1a1a6;">Before a render begins, Hyper Shot scans your output directories to provide a complete overview of already rendered frames. You retain absolute control: automatically skip existing frames to resume an interrupted job, or use the Overwrite toggle to intentionally re-render them. Review your task list and launch the batch with total confidence.</p>
-
-        <div class="tip-footer" style="text-align:left;max-width:700px;border-top:1px solid rgba(255,255,255,0.08);padding-top:24px;color:#86868b;font-size:0.95em;line-height:1.5;margin:0;">
-            <strong style="color:#ffffff;">Tip:</strong> Insert dynamic variables into your output path to automatically organize renders into cleanly named, shot-specific folders on the fly.
-        </div>
-    </div>
-
-    <!-- ==================================================
-         OBJECTS OVERRIDES
-         ================================================== -->
-    <div id="objects-overrides" class="feature-card" data-giant="OBJECTS" style="max-width:940px;margin:0 auto 60px;background-color:#151516;border:1px solid rgba(255,255,255,0.1);border-radius:32px;padding:60px 40px;">
-        <h3 style="text-align:left;font-size:2.2em;font-weight:600;letter-spacing:-0.02em;margin:0 0 24px 0;color:#ffffff;">Objects Overrides</h3>
-
-        <video autoplay muted loop playsinline preload="metadata" aria-label="Object transform override preview" style="max-width:100%;border-radius:12px;display:block;margin:0px 0px 20px;width:100%;">
-            <source src="assets/keyfeatures/objects-transform-overrides.mp4" type="video/mp4">
-        </video>
-
-        <p style="text-align:left;max-width:700px;margin:0 0 16px 0;font-size:1.2em;line-height:1.5;color:#a1a1a6;">Fine-tune your scene composition by overriding object transformations on a per-shot basis. Easily adjust Location, Rotation, or Scale without creating complex keyframe animations—perfect for tweaking prop placements or layout variations for specific camera angles.</p>
-
-        <video autoplay muted loop playsinline preload="metadata" aria-label="Material override preview" style="max-width:100%;border-radius:12px;display:block;margin:0px 0px 32px;width:100%;">
-            <source src="assets/keyfeatures/objects-material-overrides.mp4" type="video/mp4">
-        </video>
-
-        <p style="text-align:left;max-width:700px;margin:0;font-size:1.2em;line-height:1.5;color:#a1a1a6;">Need a different look for a specific shot? Assign custom materials to any object slot dynamically. Hyper Shot features a smart tracking system that ensures your overridden materials stay perfectly linked to the correct slot.</p>
-    </div>
-
-    <!-- ==================================================
-         RENDER OVERRIDES
-         ================================================== -->
-    <div id="render-overrides" class="feature-card" data-giant="OVERRIDES" style="max-width:940px;margin:0 auto 60px;background-color:#151516;border:1px solid rgba(255,255,255,0.1);border-radius:32px;padding:60px 40px;">
-        <h3 style="text-align:left;font-size:2.2em;font-weight:600;letter-spacing:-0.02em;margin:0 0 24px 0;color:#ffffff;">Render Overrides</h3>
-
-        <video autoplay muted loop playsinline preload="metadata" aria-label="Render override preview" style="max-width:100%;border-radius:12px;display:block;margin:0 0 32px 0;width:100%;">
-            <source src="assets/keyfeatures/render-overrides.mp4" type="video/mp4">
-        </video>
-
-        <p style="text-align:left;max-width:700px;margin:0;font-size:1.2em;line-height:1.5;color:#a1a1a6;">Assign any render parameters to individual shots. Render one shot in 4K at 2000 samples, and another one in 1080p at 500. The Custom Overrides system stores these specific settings and applies them automatically during batch rendering.</p>
-    </div>
-
-    <!-- ==================================================
-         SMART TIMELINE
-         ================================================== -->
-    <div id="smart-timeline" class="feature-card" data-giant="TIMELINE" style="max-width:940px;margin:0 auto 60px;background-color:#151516;border:1px solid rgba(255,255,255,0.1);border-radius:32px;padding:60px 40px;">
-        <h3 style="text-align:left;font-size:2.2em;font-weight:600;letter-spacing:-0.02em;margin:0 0 24px 0;color:#ffffff;">Smart Timeline</h3>
-
-        <video autoplay muted loop playsinline preload="metadata" aria-label="Smart timeline preview" style="max-width:100%;border-radius:12px;display:block;margin:0px 0px 32px;width:100%;">
-            <source src="assets/keyfeatures/smart-timeline.mp4" type="video/mp4">
-        </video>
-
-        <p style="text-align:left;max-width:700px;margin:0 0 32px 0;font-size:1.2em;line-height:1.5;color:#a1a1a6;">Eliminate manual timeline setup. When working with <span style="color:#fff;"><b>Animation</b></span> shots, the add-on automatically configures timeline ranges, places Start and End markers, and creates customizable gaps between shots. As you work, adjust shot durations freely without ever overlapping adjacent shots.</p>
-
-        <div class="tip-footer" style="text-align:left;max-width:700px;border-top:1px solid rgba(255,255,255,0.08);padding-top:24px;color:#86868b;font-size:0.95em;line-height:1.5;margin:0;">
-            <strong style="color:#ffffff;">Tip:</strong> Enable "Center Timeline" to automatically pan the Timeline, keeping your active frame perfectly centered when jumping between distant shots.
-        </div>
-    </div>
-
-    <!-- ==================================================
-         GROUPS
-         ================================================== -->
-    <div id="groups" class="feature-card" data-giant="GROUPS" style="max-width:940px;margin:0 auto 60px;background-color:#151516;border:1px solid rgba(255,255,255,0.1);border-radius:32px;padding:60px 40px;display:flex;flex-wrap:wrap;align-items:center;">
-        <div style="flex:1 1 50%;min-width:0;padding-right:50px;">
-            <h3 style="text-align:left;font-size:2.2em;font-weight:600;letter-spacing:-0.02em;margin:0 0 24px 0;color:#ffffff;">Groups</h3>
-            <p style="text-align:left;font-size:1.2em;line-height:1.5;color:#a1a1a6;margin:0 0 32px 0;">Combine shots into Groups to share a unified visibility state, World and Master Camera. Update the visibility in one shot, and the changes instantly apply to the entire group. This drastically reduces setup time.</p>
-        </div>
-
-        <div style="flex:1 1 50%;min-width:0;">
-            <img src="assets/keyfeatures/shot-groups.jpg" alt="Groups overview" style="max-width:100%;border-radius:12px;display:block;margin:0px;width:100%;">
-        </div>
-
-        <div class="tip-footer" style="flex:1 1 100%;min-width:0;text-align:left;border-top:1px solid rgba(255,255,255,0.08);padding-top:24px;color:#86868b;font-size:0.95em;line-height:1.5;margin:32px 0 0 0;">
-            <strong style="color:#ffffff;">Tip:</strong> Toggle a group into "Solo" mode to instantly hide unassociated shots from the UI.
-        </div>
-    </div>
-
-    <!-- ==================================================
-         STATUSES & FILTERS
-         ================================================== -->
-    <div id="statuses-filters" class="feature-card" data-giant="STATUS" style="max-width:940px;margin:0 auto 60px;background-color:#151516;border:1px solid rgba(255,255,255,0.1);border-radius:32px;padding:60px 40px;display:flex;flex-wrap:nowrap;align-items:center;">
-        <div style="flex:1 1 50%;min-width:0;padding-right:50px;">
-            <h3 style="text-align:left;font-size:2.2em;font-weight:600;letter-spacing:-0.02em;margin:0 0 24px 0;color:#ffffff;">Statuses &amp; Filters</h3>
-            <p style="text-align:left;font-size:1.2em;line-height:1.5;color:#a1a1a6;margin:0;">Track the production lifecycle of your shots using built-in status tags (Assets, Animation, Lighting, etc). Apply UI filters to hide completed work, declutter your list, and maintain focus on active tasks.</p>
-        </div>
-
-        <div style="flex:1 1 50%;min-width:0;">
-            <video autoplay muted loop playsinline preload="metadata" aria-label="Statuses and filters preview" style="max-width:100%;border-radius:12px;display:block;margin:0px;width:100%;">
-                <source src="assets/keyfeatures/statuses-filters.mp4" type="video/mp4">
-            </video>
-        </div>
-    </div>
-
-    <!-- ==================================================
-         CLEAN & MODULAR UI
-         ================================================== -->
-    <div id="clean-ui" class="feature-card" data-giant="MODULAR" style="max-width:940px;margin:0 auto 60px;background-color:#151516;border:1px solid rgba(255,255,255,0.1);border-radius:32px;padding:60px 40px;">
-        <h3 style="text-align:left;font-size:2.2em;font-weight:600;letter-spacing:-0.02em;margin:0 0 24px 0;color:#ffffff;">Clean &amp; Modular UI</h3>
-
-        <img src="assets/keyfeatures/ui.png" alt="Clean modular UI preview" loading="lazy" style="max-width:100%;border-radius:12px;display:block;margin:0px 0px 32px;width:100%;">
-
-        <p style="text-align:left;max-width:700px;margin:0 0 32px 0;font-size:1.2em;line-height:1.5;color:#a1a1a6;">Clean. Simple. Powerful. I carefully refined the interface to be as minimal as possible. Hide the noise, save your screen space, and keep total control over your scene.</p>
-
-        <div class="tip-footer" style="text-align:left;max-width:700px;border-top:1px solid rgba(255,255,255,0.08);padding-top:24px;color:#86868b;font-size:0.95em;line-height:1.5;margin:0;">
-            <strong style="color:#ffffff;">Tip:</strong> For your convenience, a mini-panel has been added to the Timeline and Dope Sheet headers. This allows you to switch shots even if the main addon panel is hidden.
-        </div>
-    </div>
-
 
     <!-- ==================================================
          STORED PER SHOT BLOCK - START
@@ -1082,6 +968,121 @@
     <!-- ==================================================
          STORED PER SHOT BLOCK - END
          ================================================== -->
+
+
+    <!-- ==================================================
+         RENDER MANAGER
+         ================================================== -->
+    <div id="render-manager" class="feature-card" data-giant="RENDER" style="max-width:940px;margin:0 auto 60px;background-color:#151516;border:1px solid rgba(255,255,255,0.1);border-radius:32px;padding:60px 40px;">
+        <h3 style="text-align:left;font-size:2.2em;font-weight:600;letter-spacing:-0.02em;margin:0 0 24px 0;color:#ffffff;">Render Manager</h3>
+
+        <img src="assets/keyfeatures/render-manager.jpg" alt="Render Manager overview" style="max-width:100%;border-radius:12px;display:block;margin:0px 0px 32px;width:100%;">
+
+        <p style="text-align:left;max-width:700px;margin:0 0 32px 0;font-size:1.2em;line-height:1.5;color:#a1a1a6;">Before a render begins, Hyper Shot scans your output directories to provide a complete overview of already rendered frames. You retain absolute control: automatically skip existing frames to resume an interrupted job, or use the Overwrite toggle to intentionally re-render them. Review your task list and launch the batch with total confidence.</p>
+
+        <div class="tip-footer" style="text-align:left;max-width:700px;border-top:1px solid rgba(255,255,255,0.08);padding-top:24px;color:#86868b;font-size:0.95em;line-height:1.5;margin:0;">
+            <strong style="color:#ffffff;">Tip:</strong> Insert dynamic variables into your output path to automatically organize renders into cleanly named, shot-specific folders on the fly.
+        </div>
+    </div>
+
+    <!-- ==================================================
+         OBJECTS OVERRIDES
+         ================================================== -->
+    <div id="objects-overrides" class="feature-card" data-giant="OBJECTS" style="max-width:940px;margin:0 auto 60px;background-color:#151516;border:1px solid rgba(255,255,255,0.1);border-radius:32px;padding:60px 40px;">
+        <h3 style="text-align:left;font-size:2.2em;font-weight:600;letter-spacing:-0.02em;margin:0 0 24px 0;color:#ffffff;">Objects Overrides</h3>
+
+        <video autoplay muted loop playsinline preload="metadata" aria-label="Object transform override preview" style="max-width:100%;border-radius:12px;display:block;margin:0px 0px 20px;width:100%;">
+            <source src="assets/keyfeatures/objects-transform-overrides.mp4" type="video/mp4">
+        </video>
+
+        <p style="text-align:left;max-width:700px;margin:0 0 16px 0;font-size:1.2em;line-height:1.5;color:#a1a1a6;">Fine-tune your scene composition by overriding object transformations on a per-shot basis. Easily adjust Location, Rotation, or Scale without creating complex keyframe animations—perfect for tweaking prop placements or layout variations for specific camera angles.</p>
+
+        <video autoplay muted loop playsinline preload="metadata" aria-label="Material override preview" style="max-width:100%;border-radius:12px;display:block;margin:0px 0px 32px;width:100%;">
+            <source src="assets/keyfeatures/objects-material-overrides.mp4" type="video/mp4">
+        </video>
+
+        <p style="text-align:left;max-width:700px;margin:0;font-size:1.2em;line-height:1.5;color:#a1a1a6;">Need a different look for a specific shot? Assign custom materials to any object slot dynamically. Hyper Shot features a smart tracking system that ensures your overridden materials stay perfectly linked to the correct slot.</p>
+    </div>
+
+    <!-- ==================================================
+         RENDER OVERRIDES
+         ================================================== -->
+    <div id="render-overrides" class="feature-card" data-giant="OVERRIDES" style="max-width:940px;margin:0 auto 60px;background-color:#151516;border:1px solid rgba(255,255,255,0.1);border-radius:32px;padding:60px 40px;">
+        <h3 style="text-align:left;font-size:2.2em;font-weight:600;letter-spacing:-0.02em;margin:0 0 24px 0;color:#ffffff;">Render Overrides</h3>
+
+        <video autoplay muted loop playsinline preload="metadata" aria-label="Render override preview" style="max-width:100%;border-radius:12px;display:block;margin:0 0 32px 0;width:100%;">
+            <source src="assets/keyfeatures/render-overrides.mp4" type="video/mp4">
+        </video>
+
+        <p style="text-align:left;max-width:700px;margin:0;font-size:1.2em;line-height:1.5;color:#a1a1a6;">Assign any render parameters to individual shots. Render one shot in 4K at 2000 samples, and another one in 1080p at 500. The Custom Overrides system stores these specific settings and applies them automatically during batch rendering.</p>
+    </div>
+
+    <!-- ==================================================
+         SMART TIMELINE
+         ================================================== -->
+    <div id="smart-timeline" class="feature-card" data-giant="TIMELINE" style="max-width:940px;margin:0 auto 60px;background-color:#151516;border:1px solid rgba(255,255,255,0.1);border-radius:32px;padding:60px 40px;">
+        <h3 style="text-align:left;font-size:2.2em;font-weight:600;letter-spacing:-0.02em;margin:0 0 24px 0;color:#ffffff;">Smart Timeline</h3>
+
+        <video autoplay muted loop playsinline preload="metadata" aria-label="Smart timeline preview" style="max-width:100%;border-radius:12px;display:block;margin:0px 0px 32px;width:100%;">
+            <source src="assets/keyfeatures/smart-timeline.mp4" type="video/mp4">
+        </video>
+
+        <p style="text-align:left;max-width:700px;margin:0 0 32px 0;font-size:1.2em;line-height:1.5;color:#a1a1a6;">Eliminate manual timeline setup. When working with <span style="color:#fff;"><b>Animation</b></span> shots, the add-on automatically configures timeline ranges, places Start and End markers, and creates customizable gaps between shots. As you work, adjust shot durations freely without ever overlapping adjacent shots.</p>
+
+        <div class="tip-footer" style="text-align:left;max-width:700px;border-top:1px solid rgba(255,255,255,0.08);padding-top:24px;color:#86868b;font-size:0.95em;line-height:1.5;margin:0;">
+            <strong style="color:#ffffff;">Tip:</strong> Enable "Center Timeline" to automatically pan the Timeline, keeping your active frame perfectly centered when jumping between distant shots.
+        </div>
+    </div>
+
+    <!-- ==================================================
+         GROUPS
+         ================================================== -->
+    <div id="groups" class="feature-card" data-giant="GROUPS" style="max-width:940px;margin:0 auto 60px;background-color:#151516;border:1px solid rgba(255,255,255,0.1);border-radius:32px;padding:60px 40px;display:flex;flex-wrap:wrap;align-items:center;">
+        <div style="flex:1 1 50%;min-width:0;padding-right:50px;">
+            <h3 style="text-align:left;font-size:2.2em;font-weight:600;letter-spacing:-0.02em;margin:0 0 24px 0;color:#ffffff;">Groups</h3>
+            <p style="text-align:left;font-size:1.2em;line-height:1.5;color:#a1a1a6;margin:0 0 32px 0;">Combine shots into Groups to share a unified visibility state, World and Master Camera. Update the visibility in one shot, and the changes instantly apply to the entire group. This drastically reduces setup time.</p>
+        </div>
+
+        <div style="flex:1 1 50%;min-width:0;">
+            <img src="assets/keyfeatures/shot-groups.jpg" alt="Groups overview" style="max-width:100%;border-radius:12px;display:block;margin:0px;width:100%;">
+        </div>
+
+        <div class="tip-footer" style="flex:1 1 100%;min-width:0;text-align:left;border-top:1px solid rgba(255,255,255,0.08);padding-top:24px;color:#86868b;font-size:0.95em;line-height:1.5;margin:32px 0 0 0;">
+            <strong style="color:#ffffff;">Tip:</strong> Toggle a group into "Solo" mode to instantly hide unassociated shots from the UI.
+        </div>
+    </div>
+
+    <!-- ==================================================
+         STATUSES & FILTERS
+         ================================================== -->
+    <div id="statuses-filters" class="feature-card" data-giant="STATUS" style="max-width:940px;margin:0 auto 60px;background-color:#151516;border:1px solid rgba(255,255,255,0.1);border-radius:32px;padding:60px 40px;display:flex;flex-wrap:nowrap;align-items:center;">
+        <div style="flex:1 1 50%;min-width:0;padding-right:50px;">
+            <h3 style="text-align:left;font-size:2.2em;font-weight:600;letter-spacing:-0.02em;margin:0 0 24px 0;color:#ffffff;">Statuses &amp; Filters</h3>
+            <p style="text-align:left;font-size:1.2em;line-height:1.5;color:#a1a1a6;margin:0;">Track the production lifecycle of your shots using built-in status tags (Assets, Animation, Lighting, etc). Apply UI filters to hide completed work, declutter your list, and maintain focus on active tasks.</p>
+        </div>
+
+        <div style="flex:1 1 50%;min-width:0;">
+            <video autoplay muted loop playsinline preload="metadata" aria-label="Statuses and filters preview" style="max-width:100%;border-radius:12px;display:block;margin:0px;width:100%;">
+                <source src="assets/keyfeatures/statuses-filters.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <!-- ==================================================
+         CLEAN & MODULAR UI
+         ================================================== -->
+    <div id="clean-ui" class="feature-card" data-giant="MODULAR" style="max-width:940px;margin:0 auto 60px;background-color:#151516;border:1px solid rgba(255,255,255,0.1);border-radius:32px;padding:60px 40px;">
+        <h3 style="text-align:left;font-size:2.2em;font-weight:600;letter-spacing:-0.02em;margin:0 0 24px 0;color:#ffffff;">Clean &amp; Modular UI</h3>
+
+        <img src="assets/keyfeatures/ui.png" alt="Clean modular UI preview" loading="lazy" style="max-width:100%;border-radius:12px;display:block;margin:0px 0px 32px;width:100%;">
+
+        <p style="text-align:left;max-width:700px;margin:0 0 32px 0;font-size:1.2em;line-height:1.5;color:#a1a1a6;">Clean. Simple. Powerful. I carefully refined the interface to be as minimal as possible. Hide the noise, save your screen space, and keep total control over your scene.</p>
+
+        <div class="tip-footer" style="text-align:left;max-width:700px;border-top:1px solid rgba(255,255,255,0.08);padding-top:24px;color:#86868b;font-size:0.95em;line-height:1.5;margin:0;">
+            <strong style="color:#ffffff;">Tip:</strong> For your convenience, a mini-panel has been added to the Timeline and Dope Sheet headers. This allows you to switch shots even if the main addon panel is hidden.
+        </div>
+    </div>
+
 
     <!-- ==================================================
          TUTORIALS
